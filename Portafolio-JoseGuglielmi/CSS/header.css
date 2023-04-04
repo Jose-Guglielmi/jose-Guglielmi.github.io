@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
+
+* {
+  font-family: "Inder", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../img/laptop-2620118.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contenedor-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+  background-color: #ffffff15;
+  position: fixed;
+  width: 100vw;
+}
+
+.img-logo:hover {
+  transform: scale(1.4);
+}
+
+.img-logo {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.contendor-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titulo,
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.titulo {
+  font-size: 50px;
+}
+
+.btn-header:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.btn-header {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  outline: none;
+  border: none;
+  justify-self: flex-end;
+  transition: border 1s, transform 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  outline: none;
+}
+
+.btn-header p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.btn-header img {
+  width: 30px;
+  height: 30px;
+}
