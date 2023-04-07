@@ -28,6 +28,7 @@ header {
   background: linear-gradient(to left, #ffffff9a, #00000000);
   position: fixed;
   width: 100vw;
+  z-index: 1;
 }
 
 .img-logo:hover {
