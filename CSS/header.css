@@ -2,9 +2,6 @@
 
 * {
   font-family: "Inder", sans-serif;
-}
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,10 +9,6 @@
 
 header {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../IMG/laptop-2620118.jpg);
-  background-size: cover;
-  background-position: center;
   position: relative;
 }
 
@@ -24,10 +17,9 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  padding: 0 20px;
   background: linear-gradient(to left, #ffffff9a, #00000000);
-  position: fixed;
-  width: 100vw;
+  position: absolute;
+  width: 100%;
   z-index: 1;
 }
 
@@ -72,11 +64,17 @@ header {
 }
 
 .contendor-contenido {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(../IMG/laptop-2620118.jpg);
+  background-size: cover;
+  background-position: center;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .titulo,
@@ -122,4 +120,16 @@ header {
 .btn-header img {
   width: 30px;
   height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contendor-contenido {
+    width: 100vw !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contenedor-navbar ul {
+    display: none;
+  }
 }

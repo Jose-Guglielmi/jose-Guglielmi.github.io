@@ -5,6 +5,7 @@
 
 .contenedor_about {
   display: flex;
+
   align-items: center;
   justify-content: center;
   margin: 30px;
@@ -73,4 +74,10 @@ h1 {
 
 .contenedor_titulo_e_img_about {
   padding-right: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contenedor_about {
+    flex-direction: column;
+  }
 }
