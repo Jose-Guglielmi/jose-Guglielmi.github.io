@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav class="contenedor-navbar">
+      <nav class="contenedor-navbar" id="home">
         <img class="img-logo" src="./IMG/Logo.svg" alt="Logo JG" />
         <ul class="contenedor-ul">
           <li><a href="#home">Home</a></li>
@@ -23,8 +23,10 @@
           <li><a href="#proyectos">Projects</a></li>
           <li><a href="#contactos">Contact</a></li>
         </ul>
+        
+        <button class="hamburguesa"></button>
       </nav>
-      <div class="contendor-contenido" id="home">
+      <div class="contendor-contenido" >
         <h2 class="titulo">Jose Guglielmi</h2>
         <h3 class="subtitulo">Desarrollador web</h3>
 
@@ -38,17 +40,18 @@
         </a>
       </div>
     </header>
+    <a href="#home" class="btn-flotante ocultar"><img src="./ICONS/flecha-pequena-arriba.svg" class="icono" alt="flecha hacia arriba"></a>
     <section class="about" id="about">
       <img
-        class="img_fondo_about_1"
-        src="./IMG/Wireframe.svg"
-        alt="img de fondo"
+      class="img_fondo_about_1"
+      src="./IMG/Wireframe.svg"
+      alt="img de fondo"
       />
-
+      
       <img
-        class="img_fondo_about_2"
-        src="./IMG/Whiteboard.svg"
-        alt="img de fondo"
+      class="img_fondo_about_2"
+      src="./IMG/Whiteboard.svg"
+      alt="img de fondo"
       />
       <h1>Sobre mí</h1>
       <div class="contenedor_about">
@@ -178,5 +181,6 @@
     <footer>
       <p>&copy; 2023 Jose Guglielmi</p>
     </footer>
+    <script src="./JS/script.js"></script>
   </body>
 </html>
