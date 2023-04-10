@@ -241,5 +241,6 @@ header {
 
   .oculto {
     right: -100%;
+    display: none;
   }
 }
