@@ -31,6 +31,7 @@ header {
   width: 40px;
   height: 40px;
   transition: transform 0.2s;
+  margin-left: 15px;
 }
 
 .contenedor-navbar ul {
@@ -150,6 +151,10 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+  .img-logo {
+    margin-left: 0;
+  }
+
   .contendor-contenido {
     width: 100vw;
     margin: 0;
