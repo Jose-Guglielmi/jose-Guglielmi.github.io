@@ -25,4 +25,17 @@ window.addEventListener("scroll", function () {
     //si no, le agrego la clase ocultar
     btnFlotante.classList.add("ocultar");
   }
+
+  if (
+    window.innerHeight + window.pageYOffset + 60 >=
+    document.body.scrollHeight
+  ) {
+    //btnFlotante.style.marginBottom = "60px";
+    btnFlotante.style.position = "absolute";
+    btnFlotante.style.marginBottom = "60px";
+  } else {
+    //btnFlotante.style.marginBottom = "0px";
+    btnFlotante.style.position = "fixed";
+    btnFlotante.style.marginBottom = "0";
+  }
 });
