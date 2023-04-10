@@ -165,10 +165,6 @@ header {
     justify-content: center;
   }
 
-  .contenedor-navbar ul {
-    display: none;
-  }
-
   .hamburguesa {
     display: inline-block;
     position: absolute;
@@ -215,5 +211,35 @@ header {
 
   .open:after {
     transform: translateY(0) rotate(-45deg);
+  }
+
+  .contenedor-ul {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    height: 100vh;
+    background: linear-gradient(to left, #ffffff9a, #00000000);
+    transition: right 1s;
+  }
+
+  .contenedor-ul ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-ul a {
+    font-size: 40px;
+    margin: 10px;
+  }
+
+  .oculto {
+    right: -100%;
   }
 }

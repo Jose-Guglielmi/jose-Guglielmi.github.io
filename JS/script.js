@@ -1,15 +1,44 @@
 //obtengo el boton de hamburguesa para el menu responsive
 const btn = document.querySelector(".hamburguesa");
 
+//obtengo el menu para poder agregarle la clase oculto
+const menu = document.querySelector(".contenedor-ul");
+
+//le agrego un evento focus para que cuando el boton pierda el focus se cierre el menu y tenga el scroll
+btn.addEventListener("blur", function () {
+  if (btn.classList.contains("open")) {
+    //le remuevo la clase open
+    btn.classList.remove("open");
+
+    //le agrego la clase oculto al menu
+    menu.classList.add("oculto");
+
+    //le agrego el scroll al body
+    document.body.style.overflow = "auto";
+  }
+});
+
 //le agrego un evento click para que al hacer click me verifique si tiene la clase open, si la tiene se la remuevo y si no la tiene se la agrego
 btn.addEventListener("click", function () {
   //si el boton tiene la clase open
   if (btn.classList.contains("open")) {
     //le remuevo la clase open
     btn.classList.remove("open");
+
+    //le agrego la clase oculto al menu
+    menu.classList.add("oculto");
+
+    //le agrego el scroll al body
+    document.body.style.overflow = "auto";
   } else {
     //si no la tiene le agrego la clase open
     btn.classList.add("open");
+
+    //le remuevo la clase oculto al menu
+    menu.classList.remove("oculto");
+
+    //le quito el scroll al body
+    document.body.style.overflow = "hidden";
   }
 });
 
