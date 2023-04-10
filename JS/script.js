@@ -12,6 +12,9 @@ btn.addEventListener("blur", function () {
 
     //le agrego la clase oculto al menu
     menu.classList.add("oculto");
+    setTimeout(function () {
+      menu.style.display = "none";
+    }, 300);
     //le agrego el scroll al body
     document.body.style.overflow = "auto";
   }
