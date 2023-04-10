@@ -41,6 +41,10 @@ footer {
   padding: 30px;
   border: 1px solid #333;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor-contacto .links {
@@ -49,4 +53,11 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .contenedor-contacto {
+    width: 100vw;
+    text-align: center;
+  }
 }

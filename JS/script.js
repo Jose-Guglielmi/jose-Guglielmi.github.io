@@ -12,7 +12,6 @@ btn.addEventListener("blur", function () {
 
     //le agrego la clase oculto al menu
     menu.classList.add("oculto");
-
     //le agrego el scroll al body
     document.body.style.overflow = "auto";
   }
@@ -27,6 +26,9 @@ btn.addEventListener("click", function () {
 
     //le agrego la clase oculto al menu
     menu.classList.add("oculto");
+    setTimeout(function () {
+      menu.style.display = "none";
+    }, 300);
 
     //le agrego el scroll al body
     document.body.style.overflow = "auto";
@@ -35,7 +37,10 @@ btn.addEventListener("click", function () {
     btn.classList.add("open");
 
     //le remuevo la clase oculto al menu
-    menu.classList.remove("oculto");
+    menu.style.display = "flex";
+    setTimeout(function () {
+      menu.classList.remove("oculto");
+    }, 10);
 
     //le quito el scroll al body
     document.body.style.overflow = "hidden";
