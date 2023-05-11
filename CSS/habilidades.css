@@ -14,10 +14,11 @@
   border-bottom: 1px solid #000000;
 }
 
-.habilidad:hover {
-  background: #000000d8;
-  transform: scale(1.1);
-  cursor: pointer;
+.contenedor-info-proyecto p {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 15px;
+  color: #ffffff;
 }
 
 .habilidad {
@@ -28,6 +29,7 @@
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
   outline: none;
@@ -49,7 +51,19 @@
   margin-top: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+.proyecto {
+  width: 450px;
+  min-height: 500px;
+}
+
+.proyecto p {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 15px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
   .habilidad {
     width: 100px;
     height: 150px;
@@ -64,5 +78,10 @@
   .habilidad p {
     font-size: 0.8em;
     font-weight: 600;
+  }
+  .habilidad:hover {
+    background: #000000d8;
+    transform: scale(1.1);
+    cursor: pointer;
   }
 }
