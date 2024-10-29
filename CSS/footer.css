@@ -39,12 +39,12 @@ footer {
 .contenedor-contacto {
   margin: 10px;
   padding: 30px;
-  border: 1px solid #333;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .contenedor-contacto .links {

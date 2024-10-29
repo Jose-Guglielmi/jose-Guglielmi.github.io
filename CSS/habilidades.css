@@ -24,7 +24,7 @@
 .habilidad {
   width: 150px;
   height: 200px;
-  background: #000000d8;
+  background: #ffffff;
   margin: 10px;
   border-radius: 10px;
   display: flex;
@@ -45,7 +45,7 @@
 }
 
 .habilidad p {
-  color: #ffffff;
+  color: #000000;
   font-size: 1.2em;
   font-weight: 600;
   margin-top: 15px;
@@ -60,7 +60,6 @@
   font-size: 1em;
   font-weight: 600;
   margin: 15px;
-  color: #ffffff;
 }
 
 @media only screen and (max-width: 800px) {
