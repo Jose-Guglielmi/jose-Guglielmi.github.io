@@ -4,12 +4,12 @@
       "id": "cel001",
       "name": "Smartphone X Pro Max",
       "brand": "TechNova",
-      "category": "Celulares",
-      "subCategory": "Smartphones",
+      "category": "Electrónica",
+      "subCategory": "Celulares",
       "description": "El último grito en tecnología móvil. Rendimiento extremo, cámara profesional y pantalla deslumbrante.",
       "price": 1199.99,
       "currency": "USD",
-      "originalPrice": 1299.99, // Precio anterior para mostrar oferta
+      "originalPrice": 1299.99,
       "stock": 50,
       "rating": 4.8,
       "reviewsCount": 152,
@@ -20,171 +20,134 @@
       ],
       "tags": ["nuevo", "oferta", "5g", "alta gama"],
       "variants": [
-        {
-          "variantId": "cel001-black-256",
-          "attributes": { "color": "Negro Grafito", "storage": "256GB" },
-          "stock": 20,
-          "price": 1199.99 // Puede variar por variante
-        },
-        {
-          "variantId": "cel001-silver-256",
-          "attributes": { "color": "Plata Estelar", "storage": "256GB" },
-          "stock": 15
-        },
-        {
-          "variantId": "cel001-black-512",
-          "attributes": { "color": "Negro Grafito", "storage": "512GB" },
-          "stock": 10,
-          "price": 1399.99
-        },
-         {
-          "variantId": "cel001-gold-512",
-          "attributes": { "color": "Oro Cósmico", "storage": "512GB" },
-          "stock": 5,
-          "price": 1399.99
-        }
+        { "variantId": "cel001-black-256", "attributes": { "color": "Negro Grafito", "storage": "256GB" }, "stock": 20, "price": 1199.99 },
+        { "variantId": "cel001-silver-256", "attributes": { "color": "Plata Estelar", "storage": "256GB" }, "stock": 15 },
+        { "variantId": "cel001-black-512", "attributes": { "color": "Negro Grafito", "storage": "512GB" }, "stock": 10, "price": 1399.99 },
+        { "variantId": "cel001-gold-512", "attributes": { "color": "Oro Cósmico", "storage": "512GB" }, "stock": 5, "price": 1399.99 }
       ],
-      "specifications": {
-        "screenSize": "6.7 pulgadas",
-        "resolution": "2778 x 1284 píxeles",
-        "displayType": "Super Retina XDR OLED",
-        "processor": "Chip A17 Bionic",
-        "ram": "8GB",
-        "storageOptions": ["256GB", "512GB", "1TB"],
-        "mainCamera": "Triple 48MP (Principal, Ultra Gran Angular, Teleobjetivo)",
-        "frontCamera": "12MP TrueDepth",
-        "battery": "4350 mAh",
-        "os": "iOS 17",
-        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3", "NFC"],
-        "features": ["Resistencia al agua IP68", "Face ID", "Carga MagSafe"]
-      }
+      "specifications": { "screenSize": "6.7 pulgadas", "resolution": "2778 x 1284", "displayType": "Super Retina XDR OLED", "processor": "Chip A17 Bionic", "ram": "8GB", "storageOptions": ["256GB", "512GB", "1TB"], "mainCamera": "Triple 48MP", "frontCamera": "12MP TrueDepth", "battery": "4350 mAh", "os": "iOS 17", "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"], "features": ["IP68", "Face ID", "MagSafe"] }
     },
     {
       "id": "cel002",
       "name": "Galaxy Nexa S",
       "brand": "OrbitTech",
-      "category": "Celulares",
-      "subCategory": "Smartphones",
+      "category": "Electrónica",
+      "subCategory": "Celulares",
       "description": "Equilibrio perfecto entre potencia y precio. Ideal para el día a día con una cámara versátil.",
       "price": 699.00,
       "currency": "USD",
       "stock": 120,
       "rating": 4.5,
       "reviewsCount": 280,
-      "images": [
-        "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Front",
-        "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Back"
-      ],
+      "images": [ "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Front", "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Back" ],
       "tags": ["más vendido", "android", "buena batería"],
-       "variants": [
-        {
-          "variantId": "cel002-blue-128",
-          "attributes": { "color": "Azul Marino", "storage": "128GB" },
-          "stock": 70
-        },
-        {
-          "variantId": "cel002-white-128",
-          "attributes": { "color": "Blanco Nube", "storage": "128GB" },
-          "stock": 50
-        }
+      "variants": [
+        { "variantId": "cel002-blue-128", "attributes": { "color": "Azul Marino", "storage": "128GB" }, "stock": 70 },
+        { "variantId": "cel002-white-128", "attributes": { "color": "Blanco Nube", "storage": "128GB" }, "stock": 50 }
       ],
-      "specifications": {
-        "screenSize": "6.4 pulgadas",
-        "resolution": "2400 x 1080 píxeles",
-        "displayType": "Dynamic AMOLED 2X",
-        "processor": "Snapdragon 8 Gen 1",
-        "ram": "6GB",
-        "storageOptions": ["128GB"],
-        "mainCamera": "50MP (Principal) + 12MP (Ultra Gran Angular)",
-        "frontCamera": "10MP",
-        "battery": "4500 mAh",
-        "os": "Android 13",
-        "connectivity": ["5G", "Wi-Fi 6", "Bluetooth 5.2", "NFC"],
-        "features": ["Lector de huellas en pantalla", "Carga rápida 25W"]
-      }
+      "specifications": { "screenSize": "6.4 pulgadas", "resolution": "2400 x 1080", "displayType": "Dynamic AMOLED 2X", "processor": "Snapdragon 8 Gen 1", "ram": "6GB", "storageOptions": ["128GB"], "mainCamera": "50MP + 12MP", "frontCamera": "10MP", "battery": "4500 mAh", "os": "Android 13", "connectivity": ["5G", "Wi-Fi 6", "Bluetooth 5.2"], "features": ["Lector de huellas", "Carga rápida 25W"] }
+    },
+     {
+      "id": "cel003",
+      "name": "Pixel Vision 7a",
+      "brand": "AlphaDigit",
+      "category": "Electrónica",
+      "subCategory": "Celulares",
+      "description": "Fotografía computacional de vanguardia en un paquete asequible. La experiencia Android pura.",
+      "price": 449.00,
+      "currency": "USD",
+      "stock": 90,
+      "rating": 4.7,
+      "reviewsCount": 195,
+      "images": [ "https://via.placeholder.com/600x600/FFA500/000000?text=Pixel+7a+Coral", "https://via.placeholder.com/600x600/808080/FFFFFF?text=Pixel+7a+Charcoal" ],
+      "tags": ["android puro", "excelente cámara", "gama media"],
+      "variants": [
+        { "variantId": "cel003-coral-128", "attributes": { "color": "Coral Vivo", "storage": "128GB" }, "stock": 40 },
+        { "variantId": "cel003-charcoal-128", "attributes": { "color": "Carbón", "storage": "128GB" }, "stock": 50 }
+      ],
+      "specifications": { "screenSize": "6.1 pulgadas", "resolution": "2400 x 1080", "displayType": "OLED", "processor": "Tensor G2", "ram": "8GB", "storageOptions": ["128GB"], "mainCamera": "64MP + 13MP", "frontCamera": "13MP", "battery": "4385 mAh", "os": "Android 13", "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3"], "features": ["IP67", "Lector de huellas", "Carga inalámbrica"] }
     },
     {
       "id": "elec001",
       "name": "Refrigerador Inteligente FrostFree 500L",
       "brand": "HomeCool",
-      "category": "Electrodomésticos",
-      "subCategory": "Refrigeradores",
+      "category": "Hogar",
+      "subCategory": "Electrodomésticos",
       "description": "Conserva tus alimentos frescos por más tiempo con tecnología No Frost y control inteligente de temperatura. Amplia capacidad.",
       "price": 950.50,
       "currency": "USD",
       "stock": 30,
       "rating": 4.7,
       "reviewsCount": 95,
-      "images": [
-        "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Front",
-        "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Open"
-      ],
+      "images": [ "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Front", "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Open" ],
       "tags": ["no frost", "eficiencia energética", "gran capacidad"],
       "variants": [
-         {
-          "variantId": "elec001-inox",
-          "attributes": { "color": "Acero Inoxidable" },
-          "stock": 20
-        },
-        {
-          "variantId": "elec001-black",
-          "attributes": { "color": "Negro Mate" },
-          "stock": 10,
-          "price": 970.00
-        }
+        { "variantId": "elec001-inox", "attributes": { "color": "Acero Inoxidable" }, "stock": 20 },
+        { "variantId": "elec001-black", "attributes": { "color": "Negro Mate" }, "stock": 10, "price": 970.00 }
       ],
-      "specifications": {
-        "capacity": "500 Litros",
-        "type": "Combinado (Refrigerador Arriba, Congelador Abajo)",
-        "coolingSystem": "No Frost Total",
-        "energyRating": "A++",
-        "dimensions": "185cm (Alto) x 70cm (Ancho) x 75cm (Profundidad)",
-        "features": ["Dispensador de agua", "Panel de control digital", "Modo vacaciones", "Alarma puerta abierta"],
-        "noiseLevel": "38 dB"
-      }
+      "specifications": { "capacity": "500 Litros", "type": "Combinado", "coolingSystem": "No Frost Total", "energyRating": "A++", "dimensions": "185x70x75 cm", "features": ["Dispensador agua", "Panel digital", "Modo vacaciones"], "noiseLevel": "38 dB" }
     },
     {
       "id": "elec002",
       "name": "Lavadora Carga Frontal EcoWash 8kg",
       "brand": "CleanHome",
-      "category": "Electrodomésticos",
-      "subCategory": "Lavadoras",
+      "category": "Hogar",
+      "subCategory": "Electrodomésticos",
       "description": "Lavado eficiente y silencioso. Programas adaptados a cada tipo de tejido y bajo consumo energético.",
       "price": 550.00,
       "currency": "USD",
       "stock": 45,
       "rating": 4.6,
       "reviewsCount": 112,
-      "images": [
-        "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Front",
-        "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Panel"
-      ],
+      "images": [ "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Front", "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Panel" ],
       "tags": ["carga frontal", "ahorro energético", "silenciosa"],
+      "variants": [ { "variantId": "elec002-white", "attributes": { "color": "Blanco" }, "stock": 45 } ],
+      "specifications": { "loadCapacity": "8 kg", "spinSpeed": "1400 RPM", "energyRating": "A+++", "programs": ["Algodón", "Sintéticos", "Rápido 15min", "Eco"], "technology": "Motor Inverter", "features": ["Inicio diferido", "Display LED"], "dimensions": "85x60x55 cm", "noiseLevelWash": "52 dB", "noiseLevelSpin": "73 dB" }
+    },
+    {
+      "id": "elec003",
+      "name": "Aspiradora Ciclónica PowerStick V10",
+      "brand": "DustAway",
+      "category": "Hogar",
+      "subCategory": "Electrodomésticos",
+      "description": "Potente aspiradora sin cable para una limpieza profunda en todo tipo de superficies. Ligera y versátil.",
+      "price": 299.00,
+      "currency": "USD",
+      "originalPrice": 349.00,
+      "stock": 75,
+      "rating": 4.4,
+      "reviewsCount": 215,
+      "images": [ "https://via.placeholder.com/600x600/800080/FFFFFF?text=Aspiradora+V10", "https://via.placeholder.com/600x600/800080/FFFFFF?text=V10+Accesorios" ],
+      "tags": ["sin cable", "potente", "oferta", "mascotas"],
+      "variants": [],
+      "specifications": { "type": "Escoba sin cable", "power": "250W Succión", "batteryLife": "Hasta 60 min", "dustbinCapacity": "0.7 L", "weight": "2.5 kg", "filter": "HEPA lavable", "accessories": ["Cepillo motorizado", "Rinconera", "Cepillo polvo"] }
+    },
+     {
+      "id": "elec004",
+      "name": "Microondas Grill QuickChef 25L",
+      "brand": "HeatWave",
+      "category": "Hogar",
+      "subCategory": "Electrodomésticos",
+      "description": "Calienta, descongela y gratina tus platos rápidamente. Diseño moderno y fácil de usar.",
+      "price": 129.99,
+      "currency": "USD",
+      "stock": 150,
+      "rating": 4.3,
+      "reviewsCount": 180,
+      "images": [ "https://via.placeholder.com/600x600/777777/FFFFFF?text=Microondas+Front", "https://via.placeholder.com/600x600/777777/FFFFFF?text=Microondas+Interior" ],
+      "tags": ["grill", "digital", "descongelación rápida"],
       "variants": [
-         {
-          "variantId": "elec002-white",
-          "attributes": { "color": "Blanco" },
-          "stock": 45
-        }
-       ], // Sin variantes de color en este caso
-      "specifications": {
-        "loadCapacity": "8 kg",
-        "spinSpeed": "1400 RPM",
-        "energyRating": "A+++",
-        "programs": ["Algodón", "Sintéticos", "Delicado", "Rápido 15min", "Eco", "Lana"],
-        "technology": "Motor Inverter Direct Drive",
-        "features": ["Inicio diferido", "Display LED", "Bloqueo infantil"],
-        "dimensions": "85cm (Alto) x 60cm (Ancho) x 55cm (Profundidad)",
-        "noiseLevelWash": "52 dB",
-        "noiseLevelSpin": "73 dB"
-      }
+         { "variantId": "elec004-silver", "attributes": { "color": "Plata" }, "stock": 100 },
+         { "variantId": "elec004-white", "attributes": { "color": "Blanco" }, "stock": 50 }
+      ],
+      "specifications": { "capacity": "25 Litros", "powerMicrowave": "900W", "powerGrill": "1000W", "functions": ["Microondas", "Grill", "Combinado", "Descongelar"], "control": "Digital", "features": ["Plato giratorio", "Temporizador", "Bloqueo infantil"] }
     },
     {
       "id": "tv001",
       "name": "Smart TV Crystal UHD 55 pulgadas 4K",
       "brand": "VisionPlus",
-      "category": "Televisores",
-      "subCategory": "Smart TVs",
+      "category": "Electrónica",
+      "subCategory": "Televisores",
       "description": "Sumérgete en imágenes vibrantes y nítidas con resolución 4K UHD y acceso a tus apps favoritas.",
       "price": 499.99,
       "currency": "USD",
@@ -192,24 +155,373 @@
       "stock": 70,
       "rating": 4.7,
       "reviewsCount": 310,
-      "images": [
-        "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Front",
-        "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Angle"
-      ],
+      "images": [ "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Front", "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Angle" ],
       "tags": ["4k", "uhd", "smart tv", "oferta"],
-      "variants": [], // Asumimos un solo modelo/color para este TV
-      "specifications": {
-        "screenSize": "55 pulgadas",
-        "resolution": "3840 x 2160 (4K UHD)",
-        "panelType": "LED",
-        "refreshRate": "60Hz",
-        "hdrSupport": ["HDR10+", "HLG"],
-        "smartPlatform": "Tizen OS (o similar)",
-        "connectivity": ["Wi-Fi", "Bluetooth", "3x HDMI", "2x USB", "Ethernet"],
-        "sound": "20W (2 canales)",
-        "features": ["Control por voz", "Modo Juego", "Screen Mirroring"],
-        "dimensionsWithStand": "78cm (Alto) x 123cm (Ancho) x 25cm (Profundidad)"
-      }
+      "variants": [],
+      "specifications": { "screenSize": "55 pulgadas", "resolution": "3840x2160", "panelType": "LED", "refreshRate": "60Hz", "hdrSupport": ["HDR10+", "HLG"], "smartPlatform": "Tizen OS", "connectivity": ["Wi-Fi", "Bluetooth", "3x HDMI", "2x USB"], "sound": "20W", "features": ["Control por voz", "Modo Juego"] }
+    },
+     {
+      "id": "tv002",
+      "name": "OLED Evo Gallery Edition 65 pulgadas 4K",
+      "brand": "LuxeView",
+      "category": "Electrónica",
+      "subCategory": "Televisores",
+      "description": "Negros perfectos, contraste infinito y diseño ultra delgado que se integra en tu pared como una obra de arte.",
+      "price": 2499.00,
+      "currency": "USD",
+      "stock": 25,
+      "rating": 4.9,
+      "reviewsCount": 85,
+      "images": [ "https://via.placeholder.com/800x450/111111/FFFFFF?text=OLED+65+Wall", "https://via.placeholder.com/800x450/111111/FFFFFF?text=OLED+65+Side" ],
+      "tags": ["oled", "4k", "smart tv", "alta gama", "diseño"],
+      "variants": [],
+      "specifications": { "screenSize": "65 pulgadas", "resolution": "3840x2160", "panelType": "OLED Evo", "refreshRate": "120Hz", "hdrSupport": ["Dolby Vision", "HDR10", "HLG"], "smartPlatform": "webOS", "connectivity": ["Wi-Fi 6", "Bluetooth 5.0", "4x HDMI 2.1", "3x USB"], "sound": "60W (4.2 Canales)", "features": ["Dolby Atmos", "G-Sync/FreeSync", "Magic Remote"] }
+    },
+    {
+      "id": "tv003",
+      "name": "QLED Gaming TV 49 pulgadas QHD Curvo",
+      "brand": "QuantumPlay",
+      "category": "Electrónica",
+      "subCategory": "Televisores",
+      "description": "Experiencia de juego inmersiva con alta tasa de refresco, bajo input lag y colores vibrantes QLED en un formato curvo.",
+      "price": 899.00,
+      "currency": "USD",
+      "stock": 40,
+      "rating": 4.6,
+      "reviewsCount": 120,
+      "images": [ "https://via.placeholder.com/800x450/3333AA/FFFFFF?text=QLED+Gaming+Front", "https://via.placeholder.com/800x450/3333AA/FFFFFF?text=QLED+Gaming+Curve" ],
+      "tags": ["qled", "gaming", "curvo", "144hz", "smart tv"],
+      "variants": [],
+      "specifications": { "screenSize": "49 pulgadas", "resolution": "2560x1440 (QHD)", "panelType": "VA QLED", "refreshRate": "144Hz", "hdrSupport": ["HDR10+"], "smartPlatform": "Android TV", "connectivity": ["Wi-Fi 5", "Bluetooth 4.2", "2x HDMI 2.0", "1x DisplayPort", "2x USB"], "sound": "10W", "features": ["FreeSync Premium", "Modo Juego Pro", "Curvatura 1800R"] }
+    },
+     {
+      "id": "aud001",
+      "name": "Auriculares Noise Cancelling Sonus Pro",
+      "brand": "AuraSound",
+      "category": "Electrónica",
+      "subCategory": "Audio",
+      "description": "Sumérgete en tu música o llamadas con la cancelación de ruido líder en la industria y un sonido excepcional.",
+      "price": 349.99,
+      "currency": "USD",
+      "stock": 80,
+      "rating": 4.8,
+      "reviewsCount": 450,
+      "images": [ "https://via.placeholder.com/500x500/444444/FFFFFF?text=Sonus+Pro+Black", "https://via.placeholder.com/500x500/DDDDDD/000000?text=Sonus+Pro+Silver" ],
+      "tags": ["cancelación de ruido", "bluetooth", "premium", "larga duración batería"],
+      "variants": [
+         { "variantId": "aud001-black", "attributes": { "color": "Negro Mate" }, "stock": 50 },
+         { "variantId": "aud001-silver", "attributes": { "color": "Plata Lunar" }, "stock": 30 }
+      ],
+      "specifications": { "type": "Over-ear", "connectivity": "Bluetooth 5.2, NFC", "noiseCancelling": "Adaptativa Activa", "batteryLife": "Hasta 30 horas (NC on)", "drivers": "40mm Neodimio", "features": ["Micrófonos múltiples", "Modo Ambiente", "Estuche de carga", "Carga rápida USB-C"] }
+    },
+    {
+      "id": "aud002",
+      "name": "Altavoz Bluetooth Portátil AquaBeat",
+      "brand": "SoundWave",
+      "category": "Electrónica",
+      "subCategory": "Audio",
+      "description": "Lleva la fiesta a cualquier lugar con este altavoz resistente al agua, potente y con batería de larga duración.",
+      "price": 99.50,
+      "currency": "USD",
+      "stock": 200,
+      "rating": 4.5,
+      "reviewsCount": 620,
+      "images": [ "https://via.placeholder.com/500x500/00CED1/FFFFFF?text=AquaBeat+Blue", "https://via.placeholder.com/500x500/FF4500/FFFFFF?text=AquaBeat+Red" ],
+      "tags": ["portátil", "bluetooth", "resistente al agua", "buen bajo"],
+      "variants": [
+         { "variantId": "aud002-blue", "attributes": { "color": "Azul Turquesa" }, "stock": 120 },
+         { "variantId": "aud002-red", "attributes": { "color": "Rojo Coral" }, "stock": 80 }
+      ],
+      "specifications": { "type": "Portátil", "connectivity": "Bluetooth 5.0", "powerOutput": "20W RMS", "waterResistance": "IPX7", "batteryLife": "Hasta 15 horas", "features": ["Manos libres", "Emparejamiento estéreo TWS", "Radiadores pasivos"] }
+    },
+     {
+      "id": "cam001",
+      "name": "Cámara Mirrorless Alpha ZV-E",
+      "brand": "PhotoCore",
+      "category": "Electrónica",
+      "subCategory": "Cámaras",
+      "description": "Ideal para vlogging y creación de contenido. Enfoque rápido, pantalla abatible y excelente calidad de video 4K.",
+      "price": 798.00,
+      "currency": "USD",
+      "stock": 60,
+      "rating": 4.7,
+      "reviewsCount": 135,
+      "images": [ "https://via.placeholder.com/600x400/333333/FFFFFF?text=Alpha+ZV-E+Front", "https://via.placeholder.com/600x400/333333/FFFFFF?text=Alpha+ZV-E+Screen" ],
+      "tags": ["mirrorless", "vlogging", "4k", "pantalla abatible"],
+      "variants": [
+         { "variantId": "cam001-body", "attributes": { "kit": "Solo cuerpo" }, "stock": 40, "price": 698.00 },
+         { "variantId": "cam001-kitlens", "attributes": { "kit": "Con lente 16-50mm" }, "stock": 20, "price": 798.00 }
+      ],
+      "specifications": { "sensor": "APS-C Exmor CMOS 24.2MP", "video": "4K/30p, 1080p/120p", "isoRange": "100-32000", "autofocus": "Fast Hybrid AF (425 puntos)", "screen": "LCD táctil abatible 3.0 pulgadas", "connectivity": ["Wi-Fi", "Bluetooth", "USB-C"], "features": ["Micrófono direccional incorporado", "Modo Desenfoque de Fondo", "Estabilización de imagen digital"] }
+    },
+     {
+      "id": "cam002",
+      "name": "Action Cam Hero Extreme 12",
+      "brand": "GoAction",
+      "category": "Electrónica",
+      "subCategory": "Cámaras",
+      "description": "Captura tus aventuras más extremas con video 5.3K ultra estabilizado, resistente y sumergible.",
+      "price": 449.99,
+      "currency": "USD",
+      "stock": 110,
+      "rating": 4.6,
+      "reviewsCount": 290,
+      "images": [ "https://via.placeholder.com/400x400/00008B/FFFFFF?text=Hero+Extreme+12", "https://via.placeholder.com/400x400/00008B/FFFFFF?text=Hero+12+Action" ],
+      "tags": ["action cam", "5k", "resistente", "sumergible", "estabilización"],
+      "variants": [],
+      "specifications": { "video": "5.3K/60p, 4K/120p, 2.7K/240p", "photo": "27MP", "stabilization": "HyperSmooth 6.0", "waterproof": "Hasta 10 metros sin carcasa", "screen": "Frontal 1.4\", Trasera táctil 2.27\"", "connectivity": ["Wi-Fi", "Bluetooth"], "features": ["Control por voz", "TimeWarp 3.0", "Batería Enduro larga duración"] }
+    },
+     {
+      "id": "coc001",
+      "name": "Cafetera Espresso Automática Barista Touch",
+      "brand": "CafeMaster",
+      "category": "Hogar",
+      "subCategory": "Cocina",
+      "description": "Prepara cafés de especialidad en casa con solo tocar un botón. Molinillo integrado y vaporizador automático.",
+      "price": 899.95,
+      "currency": "USD",
+      "stock": 35,
+      "rating": 4.9,
+      "reviewsCount": 75,
+      "images": [ "https://via.placeholder.com/500x500/BDB76B/000000?text=Barista+Touch", "https://via.placeholder.com/500x500/BDB76B/000000?text=Barista+Touch+Screen" ],
+      "tags": ["cafetera", "espresso", "automática", "molinillo integrado", "premium"],
+      "variants": [],
+      "specifications": { "type": "Superautomática", "pressure": "15 Bar", "grinder": "Molinillo cónico integrado", "milkFrother": "Automático (Lanza de vapor)", "waterTank": "2 Litros", "features": ["Pantalla táctil", "Programas personalizables", "Calentamiento rápido"] }
+    },
+    {
+      "id": "coc002",
+      "name": "Licuadora de Alta Potencia ProBlend 1500W",
+      "brand": "VitaMixer",
+      "category": "Hogar",
+      "subCategory": "Cocina",
+      "description": "Tritura hielo, frutas congeladas y frutos secos fácilmente. Ideal para smoothies, sopas y cremas.",
+      "price": 179.00,
+      "currency": "USD",
+      "stock": 90,
+      "rating": 4.7,
+      "reviewsCount": 140,
+      "images": [ "https://via.placeholder.com/500x500/FF0000/FFFFFF?text=ProBlend+Red", "https://via.placeholder.com/500x500/696969/FFFFFF?text=ProBlend+Grey" ],
+      "tags": ["licuadora", "alta potencia", "smoothies", "tritura hielo"],
+      "variants": [
+        { "variantId": "coc002-red", "attributes": { "color": "Rojo Intenso" }, "stock": 50 },
+        { "variantId": "coc002-grey", "attributes": { "color": "Gris Acero" }, "stock": 40 }
+      ],
+      "specifications": { "power": "1500W", "speedSettings": "Variable + Pulso", "jarCapacity": "2 Litros (Tritan sin BPA)", "blades": "Acero inoxidable (6 cuchillas)", "features": ["Programas predefinidos (Smoothie, Hielo)", "Fácil limpieza"] }
+    },
+    {
+      "id": "coc003",
+      "name": "Freidora de Aire Digital XL 5.5L",
+      "brand": "AirCrisp",
+      "category": "Hogar",
+      "subCategory": "Cocina",
+      "description": "Cocina tus platos favoritos con hasta un 85% menos de grasa. Gran capacidad y panel digital fácil de usar.",
+      "price": 119.99,
+      "currency": "USD",
+      "originalPrice": 139.99,
+      "stock": 130,
+      "rating": 4.6,
+      "reviewsCount": 350,
+      "images": [ "https://via.placeholder.com/500x500/000000/FFFFFF?text=AirCrisp+XL", "https://via.placeholder.com/500x500/000000/FFFFFF?text=AirCrisp+Basket" ],
+      "tags": ["freidora de aire", "saludable", "gran capacidad", "digital", "oferta"],
+      "variants": [],
+      "specifications": { "capacity": "5.5 Litros", "power": "1700W", "temperatureRange": "80°C - 200°C", "control": "Panel táctil digital", "features": ["11 programas preestablecidos", "Cesta antiadherente apta lavavajillas", "Recordatorio agitar"] }
+    },
+    {
+      "id": "dep001",
+      "name": "Zapatillas Running UltraBoost Stride",
+      "brand": "RunFlex",
+      "category": "Deportes",
+      "subCategory": "Ropa y Calzado",
+      "description": "Máxima amortiguación y retorno de energía para tus carreras. Comodidad y rendimiento kilómetro tras kilómetro.",
+      "price": 159.95,
+      "currency": "USD",
+      "stock": 250,
+      "rating": 4.8,
+      "reviewsCount": 510,
+      "images": [ "https://via.placeholder.com/600x400/1E90FF/FFFFFF?text=UltraBoost+Blue", "https://via.placeholder.com/600x400/FF69B4/FFFFFF?text=UltraBoost+Pink", "https://via.placeholder.com/600x400/32CD32/FFFFFF?text=UltraBoost+Green" ],
+      "tags": ["running", "zapatillas", "amortiguación", "rendimiento"],
+      "variants": [
+        { "variantId": "dep001-blue-42", "attributes": { "color": "Azul Eléctrico", "size": "42" }, "stock": 30 },
+        { "variantId": "dep001-blue-43", "attributes": { "color": "Azul Eléctrico", "size": "43" }, "stock": 35 },
+        { "variantId": "dep001-pink-38", "attributes": { "color": "Rosa Fucsia", "size": "38" }, "stock": 25 },
+        { "variantId": "dep001-pink-39", "attributes": { "color": "Rosa Fucsia", "size": "39" }, "stock": 28 },
+        { "variantId": "dep001-green-41", "attributes": { "color": "Verde Lima", "size": "41" }, "stock": 22 },
+        { "variantId": "dep001-green-44", "attributes": { "color": "Verde Lima", "size": "44" }, "stock": 20 }
+      ],
+      "specifications": { "use": "Running (Asfalto)", "midsole": "Espuma Boost React", "upper": "Tejido Primeknit transpirable", "outsole": "Goma Continental", "drop": "10mm" }
+    },
+    {
+      "id": "dep002",
+      "name": "Reloj Deportivo GPS Multisport Apex Pro",
+      "brand": "FitTrack",
+      "category": "Deportes",
+      "subCategory": "Equipamiento",
+      "description": "Monitoriza tus entrenamientos con precisión GPS, frecuencia cardíaca, métricas avanzadas y batería de larga duración.",
+      "price": 499.00,
+      "currency": "USD",
+      "stock": 70,
+      "rating": 4.7,
+      "reviewsCount": 180,
+      "images": [ "https://via.placeholder.com/400x400/556B2F/FFFFFF?text=Apex+Pro+Olive", "https://via.placeholder.com/400x400/000000/FFFFFF?text=Apex+Pro+Black" ],
+      "tags": ["reloj deportivo", "gps", "multisport", "frecuencia cardíaca", "running", "ciclismo", "natación"],
+      "variants": [
+         { "variantId": "dep002-olive", "attributes": { "color": "Verde Oliva" }, "stock": 30 },
+         { "variantId": "dep002-black", "attributes": { "color": "Negro Titanio" }, "stock": 40 }
+      ],
+      "specifications": { "gps": "GPS, GLONASS, Galileo", "heartRate": "Óptico en muñeca", "waterResistance": "10 ATM", "batteryLifeGPS": "Hasta 40 horas", "batteryLifeSmartwatch": "Hasta 30 días", "features": ["Monitorización VO2 Max", "Potencia de carrera", "Mapas offline", "Pagos NFC", "Notificaciones inteligentes"] }
+    },
+    {
+      "id": "dep003",
+      "name": "Set Mancuernas Ajustables FlexiWeight 2-24kg",
+      "brand": "PowerGym",
+      "category": "Deportes",
+      "subCategory": "Equipamiento",
+      "description": "Reemplaza múltiples mancuernas con un solo set. Ajusta el peso fácilmente de 2 a 24 kg para un entrenamiento versátil.",
+      "price": 349.99,
+      "currency": "USD",
+      "stock": 55,
+      "rating": 4.6,
+      "reviewsCount": 115,
+      "images": [ "https://via.placeholder.com/500x500/A9A9A9/000000?text=FlexiWeight+Set", "https://via.placeholder.com/500x500/A9A9A9/000000?text=FlexiWeight+Dial" ],
+      "tags": ["mancuernas", "ajustables", "entrenamiento en casa", "ahorro espacio"],
+      "variants": [],
+      "specifications": { "weightRange": "2 kg a 24 kg (por mancuerna)", "adjustmentMechanism": "Dial selector", "increments": "Aprox. 1-2 kg", "material": "Acero recubierto", "includes": "2 Mancuernas ajustables, Base de soporte" }
+    },
+    {
+      "id": "per001",
+      "name": "Teclado Mecánico Gaming RGB K-Raptor",
+      "brand": "GameForce",
+      "category": "Electrónica",
+      "subCategory": "Periféricos",
+      "description": "Respuesta táctil precisa, iluminación RGB personalizable y construcción robusta para gamers exigentes.",
+      "price": 129.99,
+      "currency": "USD",
+      "stock": 160,
+      "rating": 4.7,
+      "reviewsCount": 240,
+      "images": [ "https://via.placeholder.com/700x300/0000CD/FFFFFF?text=K-Raptor+Keyboard", "https://via.placeholder.com/700x300/0000CD/FFFFFF?text=K-Raptor+RGB" ],
+      "tags": ["teclado mecánico", "gaming", "rgb", "switches red"],
+      "variants": [
+        { "variantId": "per001-red", "attributes": { "switchType": "Lineal (Red)" }, "stock": 90 },
+        { "variantId": "per001-blue", "attributes": { "switchType": "Clicky (Blue)" }, "stock": 70, "price": 134.99 }
+      ],
+      "specifications": { "layout": "Completo (104 teclas)", "switchBrand": "Cherry MX o similar", "backlight": "RGB por tecla", "connectivity": "USB-C (Cable removible)", "features": ["Anti-ghosting N-Key Rollover", "Reposamuñecas magnético (opcional)", "Software de personalización"] }
+    },
+    {
+      "id": "per002",
+      "name": "Ratón Gaming Inalámbrico G-Pro Elite",
+      "brand": "GameForce",
+      "category": "Electrónica",
+      "subCategory": "Periféricos",
+      "description": "Sensor de alta precisión, diseño ultraligero y conexión inalámbrica de baja latencia para una ventaja competitiva.",
+      "price": 89.90,
+      "currency": "USD",
+      "originalPrice": 99.90,
+      "stock": 110,
+      "rating": 4.8,
+      "reviewsCount": 320,
+      "images": [ "https://via.placeholder.com/400x400/FF1493/FFFFFF?text=G-Pro+Elite+Pink", "https://via.placeholder.com/400x400/FFFFFF/000000?text=G-Pro+Elite+White" ],
+      "tags": ["ratón gaming", "inalámbrico", "ligero", "alta precisión", "oferta"],
+      "variants": [
+         { "variantId": "per002-pink", "attributes": { "color": "Rosa Chicle" }, "stock": 40 },
+         { "variantId": "per002-white", "attributes": { "color": "Blanco Ártico" }, "stock": 70 }
+      ],
+      "specifications": { "sensor": "Óptico PixArt 3395 (o similar)", "dpi": "Hasta 26000 DPI", "pollingRate": "1000Hz", "connectivity": "Inalámbrico 2.4GHz (USB Dongle), Bluetooth, USB-C", "buttons": "6 programables", "weight": "65g", "batteryLife": "Hasta 70 horas" }
+    },
+     {
+      "id": "per003",
+      "name": "Monitor Curvo Ultrawide 34 pulgadas QHD Oficina",
+      "brand": "WorkView",
+      "category": "Electrónica",
+      "subCategory": "Periféricos",
+      "description": "Maximiza tu productividad con un amplio espacio de trabajo curvo, resolución QHD nítida y diseño elegante.",
+      "price": 449.00,
+      "currency": "USD",
+      "stock": 85,
+      "rating": 4.6,
+      "reviewsCount": 190,
+      "images": [ "https://via.placeholder.com/800x340/666666/FFFFFF?text=Ultrawide+34+Office", "https://via.placeholder.com/800x340/666666/FFFFFF?text=Ultrawide+Ports" ],
+      "tags": ["monitor", "ultrawide", "curvo", "oficina", "productividad", "qhd"],
+      "variants": [],
+      "specifications": { "screenSize": "34 pulgadas", "aspectRatio": "21:9", "resolution": "3440x1440 (WQHD)", "panelType": "VA", "refreshRate": "75Hz", "curvature": "1500R", "connectivity": ["HDMI", "DisplayPort", "USB-C (con Power Delivery)", "Hub USB 3.0"], "features": ["Soporte ajustable (altura, inclinación)", "Modo Lectura", "Altavoces integrados"] }
+    },
+     {
+      "id": "per004",
+      "name": "Webcam ProStream Full HD con Micrófono",
+      "brand": "ConnectCam",
+      "category": "Electrónica",
+      "subCategory": "Periféricos",
+      "description": "Videollamadas y streaming nítidos en Full HD 1080p. Micrófono incorporado con reducción de ruido.",
+      "price": 59.99,
+      "currency": "USD",
+      "stock": 220,
+      "rating": 4.4,
+      "reviewsCount": 410,
+      "images": [ "https://via.placeholder.com/400x300/1A1A1A/FFFFFF?text=Webcam+ProStream", "https://via.placeholder.com/400x300/1A1A1A/FFFFFF?text=Webcam+Clip" ],
+      "tags": ["webcam", "full hd", "streaming", "videollamada", "micrófono"],
+      "variants": [],
+      "specifications": { "resolution": "1920x1080 (1080p)", "frameRate": "30fps", "focusType": "Autofocus", "fieldOfView": "78 grados", "microphone": "Estéreo con reducción de ruido", "connectivity": "USB-A", "features": ["Clip ajustable", "Corrección de luz automática"] }
+    },
+    {
+      "id": "lap001",
+      "name": "Laptop Gaming Legion Dominator 16\"",
+      "brand": "CyberPower",
+      "category": "Computación",
+      "subCategory": "Laptops",
+      "description": "Potencia bruta para juegos AAA. Gráficos de última generación, pantalla de alta tasa de refresco y refrigeración avanzada.",
+      "price": 1899.00,
+      "currency": "USD",
+      "stock": 40,
+      "rating": 4.8,
+      "reviewsCount": 90,
+      "images": [ "https://via.placeholder.com/700x500/DC143C/FFFFFF?text=Legion+Dominator", "https://via.placeholder.com/700x500/DC143C/FFFFFF?text=Legion+Keyboard" ],
+      "tags": ["laptop", "gaming", "alta gama", "rtx 4070", "165hz"],
+      "variants": [
+         { "variantId": "lap001-32gb-1tb", "attributes": { "ram": "32GB", "storage": "1TB SSD" }, "stock": 25, "price": 2099.00 },
+         { "variantId": "lap001-16gb-1tb", "attributes": { "ram": "16GB", "storage": "1TB SSD" }, "stock": 15, "price": 1899.00 }
+      ],
+      "specifications": { "processor": "Intel Core i7-13700HX", "ram": "16GB/32GB DDR5", "storage": "1TB NVMe SSD Gen4", "graphics": "NVIDIA GeForce RTX 4070 8GB", "display": "16\" IPS QHD+ (2560x1600), 165Hz, G-Sync", "os": "Windows 11 Home", "keyboard": "RGB retroiluminado por tecla", "connectivity": ["Wi-Fi 6E", "Bluetooth 5.2", "Thunderbolt 4", "HDMI 2.1"], "features": ["Sistema de refrigeración avanzado", "Webcam FHD"] }
+    },
+     {
+      "id": "lap002",
+      "name": "Ultrabook SwiftLite 14\" Evo Edition",
+      "brand": "AeroBook",
+      "category": "Computación",
+      "subCategory": "Laptops",
+      "description": "Ultraligera, ultrarrápida y con batería para todo el día. Perfecta para profesionales en movimiento.",
+      "price": 1099.00,
+      "currency": "USD",
+      "originalPrice": 1199.00,
+      "stock": 75,
+      "rating": 4.7,
+      "reviewsCount": 160,
+      "images": [ "https://via.placeholder.com/700x500/ADD8E6/000000?text=SwiftLite+14", "https://via.placeholder.com/700x500/ADD8E6/000000?text=SwiftLite+Side" ],
+      "tags": ["laptop", "ultrabook", "ligera", "intel evo", "larga batería", "oferta"],
+      "variants": [
+        { "variantId": "lap002-i5-16gb-512gb", "attributes": { "processor": "Core i5-1335U", "ram": "16GB", "storage": "512GB SSD" }, "stock": 45, "price": 1099.00 },
+        { "variantId": "lap002-i7-16gb-1tb", "attributes": { "processor": "Core i7-1355U", "ram": "16GB", "storage": "1TB SSD" }, "stock": 30, "price": 1299.00 }
+       ],
+      "specifications": { "processor": "Intel Core i5/i7 (13th Gen) - Plataforma Evo", "ram": "16GB LPDDR5", "storage": "512GB/1TB NVMe SSD", "graphics": "Intel Iris Xe", "display": "14\" IPS Full HD+ (1920x1200), 100% sRGB", "os": "Windows 11 Pro", "weight": "1.2 kg", "batteryLife": "Hasta 15 horas", "connectivity": ["Wi-Fi 6E", "Bluetooth 5.2", "2x Thunderbolt 4", "HDMI"], "features": ["Lector de huellas", "Teclado retroiluminado"] }
+    },
+    {
+      "id": "lap003",
+      "name": "Convertible 2-en-1 FlexiBook 13.3\" Touch",
+      "brand": "VersaTech",
+      "category": "Computación",
+      "subCategory": "Laptops",
+      "description": "La versatilidad de una tablet y la potencia de una laptop. Pantalla táctil giratoria 360°.",
+      "price": 849.50,
+      "currency": "USD",
+      "stock": 95,
+      "rating": 4.5,
+      "reviewsCount": 130,
+      "images": [ "https://via.placeholder.com/700x500/E6E6FA/000000?text=FlexiBook+Tablet", "https://via.placeholder.com/700x500/E6E6FA/000000?text=FlexiBook+Laptop" ],
+      "tags": ["laptop", "convertible", "2-en-1", "táctil", "versátil"],
+      "variants": [
+         { "variantId": "lap003-ryzen5-8gb-512gb", "attributes": { "processor": "Ryzen 5 7530U", "ram": "8GB", "storage": "512GB SSD" }, "stock": 55, "price": 849.50 },
+         { "variantId": "lap003-ryzen7-16gb-512gb", "attributes": { "processor": "Ryzen 7 7730U", "ram": "16GB", "storage": "512GB SSD" }, "stock": 40, "price": 999.50 }
+      ],
+      "specifications": { "processor": "AMD Ryzen 5/7 (7000 Series)", "ram": "8GB/16GB DDR4", "storage": "512GB NVMe SSD", "graphics": "AMD Radeon Graphics", "display": "13.3\" IPS Full HD (1920x1080) Táctil, 360° Hinge", "os": "Windows 11 Home", "weight": "1.4 kg", "connectivity": ["Wi-Fi 6", "Bluetooth 5.1", "USB-C (con PD)", "USB-A", "HDMI"], "features": ["Lápiz óptico incluido (opcional)", "Lector de huellas"] }
     }
   ]
 }
