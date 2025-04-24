@@ -14,9 +14,9 @@
       "rating": 4.8,
       "reviewsCount": 152,
       "images": [
-        "https://via.placeholder.com/600x600/0000FF/FFFFFF?text=X+Pro+Max+Front",
-        "https://via.placeholder.com/600x600/0000FF/FFFFFF?text=X+Pro+Max+Back",
-        "https://via.placeholder.com/600x600/0000FF/FFFFFF?text=X+Pro+Max+Side"
+        "https://dummyimage.com/600x600/0000FF/FFFFFF&text=X+Pro+Max+Front",
+        "https://dummyimage.com/600x600/0000FF/FFFFFF&text=X+Pro+Max+Back",
+        "https://dummyimage.com/600x600/0000FF/FFFFFF&text=X+Pro+Max+Side"
       ],
       "tags": ["nuevo", "oferta", "5g", "alta gama"],
       "variants": [
@@ -39,7 +39,10 @@
       "stock": 120,
       "rating": 4.5,
       "reviewsCount": 280,
-      "images": [ "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Front", "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Back" ],
+      "images": [
+        "https://dummyimage.com/600x600/008000/FFFFFF&text=Nexa+S+Front",
+        "https://dummyimage.com/600x600/008000/FFFFFF&text=Nexa+S+Back"
+      ],
       "tags": ["más vendido", "android", "buena batería"],
       "variants": [
         { "variantId": "cel002-blue-128", "attributes": { "color": "Azul Marino", "storage": "128GB" }, "stock": 70 },
@@ -59,7 +62,10 @@
       "stock": 90,
       "rating": 4.7,
       "reviewsCount": 195,
-      "images": [ "https://via.placeholder.com/600x600/FFA500/000000?text=Pixel+7a+Coral", "https://via.placeholder.com/600x600/808080/FFFFFF?text=Pixel+7a+Charcoal" ],
+      "images": [
+        "https://dummyimage.com/600x600/FFA500/000000&text=Pixel+7a+Coral",
+        "https://dummyimage.com/600x600/808080/FFFFFF&text=Pixel+7a+Charcoal"
+      ],
       "tags": ["android puro", "excelente cámara", "gama media"],
       "variants": [
         { "variantId": "cel003-coral-128", "attributes": { "color": "Coral Vivo", "storage": "128GB" }, "stock": 40 },
@@ -79,7 +85,10 @@
       "stock": 30,
       "rating": 4.7,
       "reviewsCount": 95,
-      "images": [ "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Front", "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Open" ],
+      "images": [
+        "https://dummyimage.com/600x600/C0C0C0/000000&text=Refrigerador+Front",
+        "https://dummyimage.com/600x600/C0C0C0/000000&text=Refrigerador+Open"
+      ],
       "tags": ["no frost", "eficiencia energética", "gran capacidad"],
       "variants": [
         { "variantId": "elec001-inox", "attributes": { "color": "Acero Inoxidable" }, "stock": 20 },
@@ -99,7 +108,10 @@
       "stock": 45,
       "rating": 4.6,
       "reviewsCount": 112,
-      "images": [ "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Front", "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Panel" ],
+      "images": [
+        "https://dummyimage.com/600x600/FFFFFF/000000&text=Lavadora+Front",
+        "https://dummyimage.com/600x600/FFFFFF/000000&text=Lavadora+Panel"
+      ],
       "tags": ["carga frontal", "ahorro energético", "silenciosa"],
       "variants": [ { "variantId": "elec002-white", "attributes": { "color": "Blanco" }, "stock": 45 } ],
       "specifications": { "loadCapacity": "8 kg", "spinSpeed": "1400 RPM", "energyRating": "A+++", "programs": ["Algodón", "Sintéticos", "Rápido 15min", "Eco"], "technology": "Motor Inverter", "features": ["Inicio diferido", "Display LED"], "dimensions": "85x60x55 cm", "noiseLevelWash": "52 dB", "noiseLevelSpin": "73 dB" }
@@ -117,7 +129,10 @@
       "stock": 75,
       "rating": 4.4,
       "reviewsCount": 215,
-      "images": [ "https://via.placeholder.com/600x600/800080/FFFFFF?text=Aspiradora+V10", "https://via.placeholder.com/600x600/800080/FFFFFF?text=V10+Accesorios" ],
+      "images": [
+        "https://dummyimage.com/600x600/800080/FFFFFF&text=Aspiradora+V10",
+        "https://dummyimage.com/600x600/800080/FFFFFF&text=V10+Accesorios"
+      ],
       "tags": ["sin cable", "potente", "oferta", "mascotas"],
       "variants": [],
       "specifications": { "type": "Escoba sin cable", "power": "250W Succión", "batteryLife": "Hasta 60 min", "dustbinCapacity": "0.7 L", "weight": "2.5 kg", "filter": "HEPA lavable", "accessories": ["Cepillo motorizado", "Rinconera", "Cepillo polvo"] }
@@ -134,7 +149,10 @@
       "stock": 150,
       "rating": 4.3,
       "reviewsCount": 180,
-      "images": [ "https://via.placeholder.com/600x600/777777/FFFFFF?text=Microondas+Front", "https://via.placeholder.com/600x600/777777/FFFFFF?text=Microondas+Interior" ],
+      "images": [
+        "https://dummyimage.com/600x600/777777/FFFFFF&text=Microondas+Front",
+        "https://dummyimage.com/600x600/777777/FFFFFF&text=Microondas+Interior"
+      ],
       "tags": ["grill", "digital", "descongelación rápida"],
       "variants": [
          { "variantId": "elec004-silver", "attributes": { "color": "Plata" }, "stock": 100 },
@@ -155,7 +173,10 @@
       "stock": 70,
       "rating": 4.7,
       "reviewsCount": 310,
-      "images": [ "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Front", "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Angle" ],
+      "images": [
+        "https://dummyimage.com/800x450/222222/FFFFFF&text=TV+55+Front",
+        "https://dummyimage.com/800x450/222222/FFFFFF&text=TV+55+Angle"
+      ],
       "tags": ["4k", "uhd", "smart tv", "oferta"],
       "variants": [],
       "specifications": { "screenSize": "55 pulgadas", "resolution": "3840x2160", "panelType": "LED", "refreshRate": "60Hz", "hdrSupport": ["HDR10+", "HLG"], "smartPlatform": "Tizen OS", "connectivity": ["Wi-Fi", "Bluetooth", "3x HDMI", "2x USB"], "sound": "20W", "features": ["Control por voz", "Modo Juego"] }
@@ -172,7 +193,10 @@
       "stock": 25,
       "rating": 4.9,
       "reviewsCount": 85,
-      "images": [ "https://via.placeholder.com/800x450/111111/FFFFFF?text=OLED+65+Wall", "https://via.placeholder.com/800x450/111111/FFFFFF?text=OLED+65+Side" ],
+      "images": [
+        "https://dummyimage.com/800x450/111111/FFFFFF&text=OLED+65+Wall",
+        "https://dummyimage.com/800x450/111111/FFFFFF&text=OLED+65+Side"
+      ],
       "tags": ["oled", "4k", "smart tv", "alta gama", "diseño"],
       "variants": [],
       "specifications": { "screenSize": "65 pulgadas", "resolution": "3840x2160", "panelType": "OLED Evo", "refreshRate": "120Hz", "hdrSupport": ["Dolby Vision", "HDR10", "HLG"], "smartPlatform": "webOS", "connectivity": ["Wi-Fi 6", "Bluetooth 5.0", "4x HDMI 2.1", "3x USB"], "sound": "60W (4.2 Canales)", "features": ["Dolby Atmos", "G-Sync/FreeSync", "Magic Remote"] }
@@ -189,7 +213,10 @@
       "stock": 40,
       "rating": 4.6,
       "reviewsCount": 120,
-      "images": [ "https://via.placeholder.com/800x450/3333AA/FFFFFF?text=QLED+Gaming+Front", "https://via.placeholder.com/800x450/3333AA/FFFFFF?text=QLED+Gaming+Curve" ],
+      "images": [
+        "https://dummyimage.com/800x450/3333AA/FFFFFF&text=QLED+Gaming+Front",
+        "https://dummyimage.com/800x450/3333AA/FFFFFF&text=QLED+Gaming+Curve"
+      ],
       "tags": ["qled", "gaming", "curvo", "144hz", "smart tv"],
       "variants": [],
       "specifications": { "screenSize": "49 pulgadas", "resolution": "2560x1440 (QHD)", "panelType": "VA QLED", "refreshRate": "144Hz", "hdrSupport": ["HDR10+"], "smartPlatform": "Android TV", "connectivity": ["Wi-Fi 5", "Bluetooth 4.2", "2x HDMI 2.0", "1x DisplayPort", "2x USB"], "sound": "10W", "features": ["FreeSync Premium", "Modo Juego Pro", "Curvatura 1800R"] }
@@ -206,7 +233,10 @@
       "stock": 80,
       "rating": 4.8,
       "reviewsCount": 450,
-      "images": [ "https://via.placeholder.com/500x500/444444/FFFFFF?text=Sonus+Pro+Black", "https://via.placeholder.com/500x500/DDDDDD/000000?text=Sonus+Pro+Silver" ],
+      "images": [
+        "https://dummyimage.com/500x500/444444/FFFFFF&text=Sonus+Pro+Black",
+        "https://dummyimage.com/500x500/DDDDDD/000000&text=Sonus+Pro+Silver"
+      ],
       "tags": ["cancelación de ruido", "bluetooth", "premium", "larga duración batería"],
       "variants": [
          { "variantId": "aud001-black", "attributes": { "color": "Negro Mate" }, "stock": 50 },
@@ -226,7 +256,10 @@
       "stock": 200,
       "rating": 4.5,
       "reviewsCount": 620,
-      "images": [ "https://via.placeholder.com/500x500/00CED1/FFFFFF?text=AquaBeat+Blue", "https://via.placeholder.com/500x500/FF4500/FFFFFF?text=AquaBeat+Red" ],
+      "images": [
+        "https://dummyimage.com/500x500/00CED1/FFFFFF&text=AquaBeat+Blue",
+        "https://dummyimage.com/500x500/FF4500/FFFFFF&text=AquaBeat+Red"
+      ],
       "tags": ["portátil", "bluetooth", "resistente al agua", "buen bajo"],
       "variants": [
          { "variantId": "aud002-blue", "attributes": { "color": "Azul Turquesa" }, "stock": 120 },
@@ -246,7 +279,10 @@
       "stock": 60,
       "rating": 4.7,
       "reviewsCount": 135,
-      "images": [ "https://via.placeholder.com/600x400/333333/FFFFFF?text=Alpha+ZV-E+Front", "https://via.placeholder.com/600x400/333333/FFFFFF?text=Alpha+ZV-E+Screen" ],
+      "images": [
+        "https://dummyimage.com/600x400/333333/FFFFFF&text=Alpha+ZV-E+Front",
+        "https://dummyimage.com/600x400/333333/FFFFFF&text=Alpha+ZV-E+Screen"
+      ],
       "tags": ["mirrorless", "vlogging", "4k", "pantalla abatible"],
       "variants": [
          { "variantId": "cam001-body", "attributes": { "kit": "Solo cuerpo" }, "stock": 40, "price": 698.00 },
@@ -266,7 +302,10 @@
       "stock": 110,
       "rating": 4.6,
       "reviewsCount": 290,
-      "images": [ "https://via.placeholder.com/400x400/00008B/FFFFFF?text=Hero+Extreme+12", "https://via.placeholder.com/400x400/00008B/FFFFFF?text=Hero+12+Action" ],
+      "images": [
+        "https://dummyimage.com/400x400/00008B/FFFFFF&text=Hero+Extreme+12",
+        "https://dummyimage.com/400x400/00008B/FFFFFF&text=Hero+12+Action"
+      ],
       "tags": ["action cam", "5k", "resistente", "sumergible", "estabilización"],
       "variants": [],
       "specifications": { "video": "5.3K/60p, 4K/120p, 2.7K/240p", "photo": "27MP", "stabilization": "HyperSmooth 6.0", "waterproof": "Hasta 10 metros sin carcasa", "screen": "Frontal 1.4\", Trasera táctil 2.27\"", "connectivity": ["Wi-Fi", "Bluetooth"], "features": ["Control por voz", "TimeWarp 3.0", "Batería Enduro larga duración"] }
@@ -283,7 +322,10 @@
       "stock": 35,
       "rating": 4.9,
       "reviewsCount": 75,
-      "images": [ "https://via.placeholder.com/500x500/BDB76B/000000?text=Barista+Touch", "https://via.placeholder.com/500x500/BDB76B/000000?text=Barista+Touch+Screen" ],
+      "images": [
+        "https://dummyimage.com/500x500/BDB76B/000000&text=Barista+Touch",
+        "https://dummyimage.com/500x500/BDB76B/000000&text=Barista+Touch+Screen"
+      ],
       "tags": ["cafetera", "espresso", "automática", "molinillo integrado", "premium"],
       "variants": [],
       "specifications": { "type": "Superautomática", "pressure": "15 Bar", "grinder": "Molinillo cónico integrado", "milkFrother": "Automático (Lanza de vapor)", "waterTank": "2 Litros", "features": ["Pantalla táctil", "Programas personalizables", "Calentamiento rápido"] }
@@ -300,7 +342,10 @@
       "stock": 90,
       "rating": 4.7,
       "reviewsCount": 140,
-      "images": [ "https://via.placeholder.com/500x500/FF0000/FFFFFF?text=ProBlend+Red", "https://via.placeholder.com/500x500/696969/FFFFFF?text=ProBlend+Grey" ],
+      "images": [
+        "https://dummyimage.com/500x500/FF0000/FFFFFF&text=ProBlend+Red",
+        "https://dummyimage.com/500x500/696969/FFFFFF&text=ProBlend+Grey"
+      ],
       "tags": ["licuadora", "alta potencia", "smoothies", "tritura hielo"],
       "variants": [
         { "variantId": "coc002-red", "attributes": { "color": "Rojo Intenso" }, "stock": 50 },
@@ -321,7 +366,10 @@
       "stock": 130,
       "rating": 4.6,
       "reviewsCount": 350,
-      "images": [ "https://via.placeholder.com/500x500/000000/FFFFFF?text=AirCrisp+XL", "https://via.placeholder.com/500x500/000000/FFFFFF?text=AirCrisp+Basket" ],
+      "images": [
+        "https://dummyimage.com/500x500/000000/FFFFFF&text=AirCrisp+XL",
+        "https://dummyimage.com/500x500/000000/FFFFFF&text=AirCrisp+Basket"
+      ],
       "tags": ["freidora de aire", "saludable", "gran capacidad", "digital", "oferta"],
       "variants": [],
       "specifications": { "capacity": "5.5 Litros", "power": "1700W", "temperatureRange": "80°C - 200°C", "control": "Panel táctil digital", "features": ["11 programas preestablecidos", "Cesta antiadherente apta lavavajillas", "Recordatorio agitar"] }
@@ -338,7 +386,11 @@
       "stock": 250,
       "rating": 4.8,
       "reviewsCount": 510,
-      "images": [ "https://via.placeholder.com/600x400/1E90FF/FFFFFF?text=UltraBoost+Blue", "https://via.placeholder.com/600x400/FF69B4/FFFFFF?text=UltraBoost+Pink", "https://via.placeholder.com/600x400/32CD32/FFFFFF?text=UltraBoost+Green" ],
+      "images": [
+        "https://dummyimage.com/600x400/1E90FF/FFFFFF&text=UltraBoost+Blue",
+        "https://dummyimage.com/600x400/FF69B4/FFFFFF&text=UltraBoost+Pink",
+        "https://dummyimage.com/600x400/32CD32/FFFFFF&text=UltraBoost+Green"
+      ],
       "tags": ["running", "zapatillas", "amortiguación", "rendimiento"],
       "variants": [
         { "variantId": "dep001-blue-42", "attributes": { "color": "Azul Eléctrico", "size": "42" }, "stock": 30 },
@@ -362,7 +414,10 @@
       "stock": 70,
       "rating": 4.7,
       "reviewsCount": 180,
-      "images": [ "https://via.placeholder.com/400x400/556B2F/FFFFFF?text=Apex+Pro+Olive", "https://via.placeholder.com/400x400/000000/FFFFFF?text=Apex+Pro+Black" ],
+      "images": [
+        "https://dummyimage.com/400x400/556B2F/FFFFFF&text=Apex+Pro+Olive",
+        "https://dummyimage.com/400x400/000000/FFFFFF&text=Apex+Pro+Black"
+      ],
       "tags": ["reloj deportivo", "gps", "multisport", "frecuencia cardíaca", "running", "ciclismo", "natación"],
       "variants": [
          { "variantId": "dep002-olive", "attributes": { "color": "Verde Oliva" }, "stock": 30 },
@@ -382,7 +437,10 @@
       "stock": 55,
       "rating": 4.6,
       "reviewsCount": 115,
-      "images": [ "https://via.placeholder.com/500x500/A9A9A9/000000?text=FlexiWeight+Set", "https://via.placeholder.com/500x500/A9A9A9/000000?text=FlexiWeight+Dial" ],
+      "images": [
+        "https://dummyimage.com/500x500/A9A9A9/000000&text=FlexiWeight+Set",
+        "https://dummyimage.com/500x500/A9A9A9/000000&text=FlexiWeight+Dial"
+      ],
       "tags": ["mancuernas", "ajustables", "entrenamiento en casa", "ahorro espacio"],
       "variants": [],
       "specifications": { "weightRange": "2 kg a 24 kg (por mancuerna)", "adjustmentMechanism": "Dial selector", "increments": "Aprox. 1-2 kg", "material": "Acero recubierto", "includes": "2 Mancuernas ajustables, Base de soporte" }
@@ -399,7 +457,10 @@
       "stock": 160,
       "rating": 4.7,
       "reviewsCount": 240,
-      "images": [ "https://via.placeholder.com/700x300/0000CD/FFFFFF?text=K-Raptor+Keyboard", "https://via.placeholder.com/700x300/0000CD/FFFFFF?text=K-Raptor+RGB" ],
+      "images": [
+        "https://dummyimage.com/700x300/0000CD/FFFFFF&text=K-Raptor+Keyboard",
+        "https://dummyimage.com/700x300/0000CD/FFFFFF&text=K-Raptor+RGB"
+      ],
       "tags": ["teclado mecánico", "gaming", "rgb", "switches red"],
       "variants": [
         { "variantId": "per001-red", "attributes": { "switchType": "Lineal (Red)" }, "stock": 90 },
@@ -420,7 +481,10 @@
       "stock": 110,
       "rating": 4.8,
       "reviewsCount": 320,
-      "images": [ "https://via.placeholder.com/400x400/FF1493/FFFFFF?text=G-Pro+Elite+Pink", "https://via.placeholder.com/400x400/FFFFFF/000000?text=G-Pro+Elite+White" ],
+      "images": [
+        "https://dummyimage.com/400x400/FF1493/FFFFFF&text=G-Pro+Elite+Pink",
+        "https://dummyimage.com/400x400/FFFFFF/000000&text=G-Pro+Elite+White"
+      ],
       "tags": ["ratón gaming", "inalámbrico", "ligero", "alta precisión", "oferta"],
       "variants": [
          { "variantId": "per002-pink", "attributes": { "color": "Rosa Chicle" }, "stock": 40 },
@@ -440,7 +504,10 @@
       "stock": 85,
       "rating": 4.6,
       "reviewsCount": 190,
-      "images": [ "https://via.placeholder.com/800x340/666666/FFFFFF?text=Ultrawide+34+Office", "https://via.placeholder.com/800x340/666666/FFFFFF?text=Ultrawide+Ports" ],
+      "images": [
+        "https://dummyimage.com/800x340/666666/FFFFFF&text=Ultrawide+34+Office",
+        "https://dummyimage.com/800x340/666666/FFFFFF&text=Ultrawide+Ports"
+      ],
       "tags": ["monitor", "ultrawide", "curvo", "oficina", "productividad", "qhd"],
       "variants": [],
       "specifications": { "screenSize": "34 pulgadas", "aspectRatio": "21:9", "resolution": "3440x1440 (WQHD)", "panelType": "VA", "refreshRate": "75Hz", "curvature": "1500R", "connectivity": ["HDMI", "DisplayPort", "USB-C (con Power Delivery)", "Hub USB 3.0"], "features": ["Soporte ajustable (altura, inclinación)", "Modo Lectura", "Altavoces integrados"] }
@@ -457,7 +524,10 @@
       "stock": 220,
       "rating": 4.4,
       "reviewsCount": 410,
-      "images": [ "https://via.placeholder.com/400x300/1A1A1A/FFFFFF?text=Webcam+ProStream", "https://via.placeholder.com/400x300/1A1A1A/FFFFFF?text=Webcam+Clip" ],
+      "images": [
+        "https://dummyimage.com/400x300/1A1A1A/FFFFFF&text=Webcam+ProStream",
+        "https://dummyimage.com/400x300/1A1A1A/FFFFFF&text=Webcam+Clip"
+      ],
       "tags": ["webcam", "full hd", "streaming", "videollamada", "micrófono"],
       "variants": [],
       "specifications": { "resolution": "1920x1080 (1080p)", "frameRate": "30fps", "focusType": "Autofocus", "fieldOfView": "78 grados", "microphone": "Estéreo con reducción de ruido", "connectivity": "USB-A", "features": ["Clip ajustable", "Corrección de luz automática"] }
@@ -474,7 +544,10 @@
       "stock": 40,
       "rating": 4.8,
       "reviewsCount": 90,
-      "images": [ "https://via.placeholder.com/700x500/DC143C/FFFFFF?text=Legion+Dominator", "https://via.placeholder.com/700x500/DC143C/FFFFFF?text=Legion+Keyboard" ],
+      "images": [
+        "https://dummyimage.com/700x500/DC143C/FFFFFF&text=Legion+Dominator",
+        "https://dummyimage.com/700x500/DC143C/FFFFFF&text=Legion+Keyboard"
+      ],
       "tags": ["laptop", "gaming", "alta gama", "rtx 4070", "165hz"],
       "variants": [
          { "variantId": "lap001-32gb-1tb", "attributes": { "ram": "32GB", "storage": "1TB SSD" }, "stock": 25, "price": 2099.00 },
@@ -495,7 +568,10 @@
       "stock": 75,
       "rating": 4.7,
       "reviewsCount": 160,
-      "images": [ "https://via.placeholder.com/700x500/ADD8E6/000000?text=SwiftLite+14", "https://via.placeholder.com/700x500/ADD8E6/000000?text=SwiftLite+Side" ],
+      "images": [
+        "https://dummyimage.com/700x500/ADD8E6/000000&text=SwiftLite+14",
+        "https://dummyimage.com/700x500/ADD8E6/000000&text=SwiftLite+Side"
+      ],
       "tags": ["laptop", "ultrabook", "ligera", "intel evo", "larga batería", "oferta"],
       "variants": [
         { "variantId": "lap002-i5-16gb-512gb", "attributes": { "processor": "Core i5-1335U", "ram": "16GB", "storage": "512GB SSD" }, "stock": 45, "price": 1099.00 },
@@ -515,7 +591,10 @@
       "stock": 95,
       "rating": 4.5,
       "reviewsCount": 130,
-      "images": [ "https://via.placeholder.com/700x500/E6E6FA/000000?text=FlexiBook+Tablet", "https://via.placeholder.com/700x500/E6E6FA/000000?text=FlexiBook+Laptop" ],
+      "images": [
+        "https://dummyimage.com/700x500/E6E6FA/000000&text=FlexiBook+Tablet",
+        "https://dummyimage.com/700x500/E6E6FA/000000&text=FlexiBook+Laptop"
+      ],
       "tags": ["laptop", "convertible", "2-en-1", "táctil", "versátil"],
       "variants": [
          { "variantId": "lap003-ryzen5-8gb-512gb", "attributes": { "processor": "Ryzen 5 7530U", "ram": "8GB", "storage": "512GB SSD" }, "stock": 55, "price": 849.50 },
