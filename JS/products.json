@@ -1,0 +1,215 @@
+{
+  "products": [
+    {
+      "id": "cel001",
+      "name": "Smartphone X Pro Max",
+      "brand": "TechNova",
+      "category": "Celulares",
+      "subCategory": "Smartphones",
+      "description": "El último grito en tecnología móvil. Rendimiento extremo, cámara profesional y pantalla deslumbrante.",
+      "price": 1199.99,
+      "currency": "USD",
+      "originalPrice": 1299.99, // Precio anterior para mostrar oferta
+      "stock": 50,
+      "rating": 4.8,
+      "reviewsCount": 152,
+      "images": [
+        "https://via.placeholder.com/600x600/0000FF/FFFFFF?text=X+Pro+Max+Front",
+        "https://via.placeholder.com/600x600/0000FF/FFFFFF?text=X+Pro+Max+Back",
+        "https://via.placeholder.com/600x600/0000FF/FFFFFF?text=X+Pro+Max+Side"
+      ],
+      "tags": ["nuevo", "oferta", "5g", "alta gama"],
+      "variants": [
+        {
+          "variantId": "cel001-black-256",
+          "attributes": { "color": "Negro Grafito", "storage": "256GB" },
+          "stock": 20,
+          "price": 1199.99 // Puede variar por variante
+        },
+        {
+          "variantId": "cel001-silver-256",
+          "attributes": { "color": "Plata Estelar", "storage": "256GB" },
+          "stock": 15
+        },
+        {
+          "variantId": "cel001-black-512",
+          "attributes": { "color": "Negro Grafito", "storage": "512GB" },
+          "stock": 10,
+          "price": 1399.99
+        },
+         {
+          "variantId": "cel001-gold-512",
+          "attributes": { "color": "Oro Cósmico", "storage": "512GB" },
+          "stock": 5,
+          "price": 1399.99
+        }
+      ],
+      "specifications": {
+        "screenSize": "6.7 pulgadas",
+        "resolution": "2778 x 1284 píxeles",
+        "displayType": "Super Retina XDR OLED",
+        "processor": "Chip A17 Bionic",
+        "ram": "8GB",
+        "storageOptions": ["256GB", "512GB", "1TB"],
+        "mainCamera": "Triple 48MP (Principal, Ultra Gran Angular, Teleobjetivo)",
+        "frontCamera": "12MP TrueDepth",
+        "battery": "4350 mAh",
+        "os": "iOS 17",
+        "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3", "NFC"],
+        "features": ["Resistencia al agua IP68", "Face ID", "Carga MagSafe"]
+      }
+    },
+    {
+      "id": "cel002",
+      "name": "Galaxy Nexa S",
+      "brand": "OrbitTech",
+      "category": "Celulares",
+      "subCategory": "Smartphones",
+      "description": "Equilibrio perfecto entre potencia y precio. Ideal para el día a día con una cámara versátil.",
+      "price": 699.00,
+      "currency": "USD",
+      "stock": 120,
+      "rating": 4.5,
+      "reviewsCount": 280,
+      "images": [
+        "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Front",
+        "https://via.placeholder.com/600x600/008000/FFFFFF?text=Nexa+S+Back"
+      ],
+      "tags": ["más vendido", "android", "buena batería"],
+       "variants": [
+        {
+          "variantId": "cel002-blue-128",
+          "attributes": { "color": "Azul Marino", "storage": "128GB" },
+          "stock": 70
+        },
+        {
+          "variantId": "cel002-white-128",
+          "attributes": { "color": "Blanco Nube", "storage": "128GB" },
+          "stock": 50
+        }
+      ],
+      "specifications": {
+        "screenSize": "6.4 pulgadas",
+        "resolution": "2400 x 1080 píxeles",
+        "displayType": "Dynamic AMOLED 2X",
+        "processor": "Snapdragon 8 Gen 1",
+        "ram": "6GB",
+        "storageOptions": ["128GB"],
+        "mainCamera": "50MP (Principal) + 12MP (Ultra Gran Angular)",
+        "frontCamera": "10MP",
+        "battery": "4500 mAh",
+        "os": "Android 13",
+        "connectivity": ["5G", "Wi-Fi 6", "Bluetooth 5.2", "NFC"],
+        "features": ["Lector de huellas en pantalla", "Carga rápida 25W"]
+      }
+    },
+    {
+      "id": "elec001",
+      "name": "Refrigerador Inteligente FrostFree 500L",
+      "brand": "HomeCool",
+      "category": "Electrodomésticos",
+      "subCategory": "Refrigeradores",
+      "description": "Conserva tus alimentos frescos por más tiempo con tecnología No Frost y control inteligente de temperatura. Amplia capacidad.",
+      "price": 950.50,
+      "currency": "USD",
+      "stock": 30,
+      "rating": 4.7,
+      "reviewsCount": 95,
+      "images": [
+        "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Front",
+        "https://via.placeholder.com/600x600/C0C0C0/000000?text=Refrigerador+Open"
+      ],
+      "tags": ["no frost", "eficiencia energética", "gran capacidad"],
+      "variants": [
+         {
+          "variantId": "elec001-inox",
+          "attributes": { "color": "Acero Inoxidable" },
+          "stock": 20
+        },
+        {
+          "variantId": "elec001-black",
+          "attributes": { "color": "Negro Mate" },
+          "stock": 10,
+          "price": 970.00
+        }
+      ],
+      "specifications": {
+        "capacity": "500 Litros",
+        "type": "Combinado (Refrigerador Arriba, Congelador Abajo)",
+        "coolingSystem": "No Frost Total",
+        "energyRating": "A++",
+        "dimensions": "185cm (Alto) x 70cm (Ancho) x 75cm (Profundidad)",
+        "features": ["Dispensador de agua", "Panel de control digital", "Modo vacaciones", "Alarma puerta abierta"],
+        "noiseLevel": "38 dB"
+      }
+    },
+    {
+      "id": "elec002",
+      "name": "Lavadora Carga Frontal EcoWash 8kg",
+      "brand": "CleanHome",
+      "category": "Electrodomésticos",
+      "subCategory": "Lavadoras",
+      "description": "Lavado eficiente y silencioso. Programas adaptados a cada tipo de tejido y bajo consumo energético.",
+      "price": 550.00,
+      "currency": "USD",
+      "stock": 45,
+      "rating": 4.6,
+      "reviewsCount": 112,
+      "images": [
+        "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Front",
+        "https://via.placeholder.com/600x600/FFFFFF/000000?text=Lavadora+Panel"
+      ],
+      "tags": ["carga frontal", "ahorro energético", "silenciosa"],
+      "variants": [
+         {
+          "variantId": "elec002-white",
+          "attributes": { "color": "Blanco" },
+          "stock": 45
+        }
+       ], // Sin variantes de color en este caso
+      "specifications": {
+        "loadCapacity": "8 kg",
+        "spinSpeed": "1400 RPM",
+        "energyRating": "A+++",
+        "programs": ["Algodón", "Sintéticos", "Delicado", "Rápido 15min", "Eco", "Lana"],
+        "technology": "Motor Inverter Direct Drive",
+        "features": ["Inicio diferido", "Display LED", "Bloqueo infantil"],
+        "dimensions": "85cm (Alto) x 60cm (Ancho) x 55cm (Profundidad)",
+        "noiseLevelWash": "52 dB",
+        "noiseLevelSpin": "73 dB"
+      }
+    },
+    {
+      "id": "tv001",
+      "name": "Smart TV Crystal UHD 55 pulgadas 4K",
+      "brand": "VisionPlus",
+      "category": "Televisores",
+      "subCategory": "Smart TVs",
+      "description": "Sumérgete en imágenes vibrantes y nítidas con resolución 4K UHD y acceso a tus apps favoritas.",
+      "price": 499.99,
+      "currency": "USD",
+      "originalPrice": 549.99,
+      "stock": 70,
+      "rating": 4.7,
+      "reviewsCount": 310,
+      "images": [
+        "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Front",
+        "https://via.placeholder.com/800x450/222222/FFFFFF?text=TV+55+Angle"
+      ],
+      "tags": ["4k", "uhd", "smart tv", "oferta"],
+      "variants": [], // Asumimos un solo modelo/color para este TV
+      "specifications": {
+        "screenSize": "55 pulgadas",
+        "resolution": "3840 x 2160 (4K UHD)",
+        "panelType": "LED",
+        "refreshRate": "60Hz",
+        "hdrSupport": ["HDR10+", "HLG"],
+        "smartPlatform": "Tizen OS (o similar)",
+        "connectivity": ["Wi-Fi", "Bluetooth", "3x HDMI", "2x USB", "Ethernet"],
+        "sound": "20W (2 canales)",
+        "features": ["Control por voz", "Modo Juego", "Screen Mirroring"],
+        "dimensionsWithStand": "78cm (Alto) x 123cm (Ancho) x 25cm (Profundidad)"
+      }
+    }
+  ]
+}
